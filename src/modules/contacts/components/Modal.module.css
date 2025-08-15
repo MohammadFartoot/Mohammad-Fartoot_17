@@ -1,0 +1,56 @@
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 400px;
+    width: 90%;
+    box-shadow: 0 11px 10px rgba(0, 0, 0, 0.3);
+}
+
+.text {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: darkblue;
+}
+
+.confirmButton {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 0.80rem;
+    background-color: #304ffe;
+    color: white;
+    margin: 10px 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.cancelButton {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 0.80rem;
+    background-color: #000000;
+    color: white;
+    margin: 10px 5px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+.confirmButton:hover {
+    font-size: 0.90rem;
+}
+
+.cancelButton:hover {
+    font-size: 0.90rem;
+}

@@ -1,0 +1,88 @@
+.noContacts {
+    text-align: center;
+    background-color: #ececec;
+    margin: 300px 300px;
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.noContacts p {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.contactsList {
+    display: flex;
+    flex-direction: column;
+}
+
+.contactCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ececec;
+    padding: 12px;
+    margin: 0 100px;
+    border-radius: 8px;
+    border-bottom: grey solid 1px;
+
+}
+
+.contactCard p {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #000000;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.contactCard p:nth-child(2) {
+    margin-left: 190px;
+    text-align: center;
+}
+
+.contactCard img {
+    display: block;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border: none;
+    background: none;
+}
+
+.contactCard:hover {
+    background-color: #d7d7d7;
+}
+
+.actionButton {
+    background: none;
+}
+
+.actionButton button {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 0.80rem;
+    color: #000000;
+    padding: 9px;
+    margin: 0 7px;
+    border-radius: 10px;
+}
+
+.actionButton button:nth-child(1) {
+    background-color: #31cc19;
+    border: none;
+}
+
+.actionButton button:nth-child(2) {
+    background-color: #ff0101;
+    border: none;
+}
+
+.actionButton button:nth-child(1):hover {
+    background-color: #2ebe17;
+}
+
+.actionButton button:nth-child(2):hover {
+    background-color: #e70202;
+}

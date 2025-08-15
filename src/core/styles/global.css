@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'YekanBakh-Light';
+    src: url('../fonts/YekanBakh-Light.ttf') format("truetype")
+}
+
+@font-face {
+    font-family: 'YekanBakh-Regular';
+    src: url('../fonts/YekanBakh-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'YekanBakh-SemiBold';
+    src: url('../fonts/YekanBakh-SemiBold.ttf') format("truetype");
+}
+
+
+:root {
+    --line-height--: 1.5;
+    --bg-color--: #ffffff;
+}
+
+.darkMode {
+    --bg-color--: midnightblue;
+}
+
+
+body {
+    margin: 30px auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    padding: 10px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    background-color: var(--bg-color--);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

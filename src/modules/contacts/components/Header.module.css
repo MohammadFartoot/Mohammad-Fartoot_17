@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px 120px 60px 120px;
+}
+
+.lightH5 {
+    font-family: 'YekanBakh-Regular', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #304ffe;
+    margin: 0 10px;
+}
+
+.darkH5 {
+    font-family: 'YekanBakh-Regular', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: #ffffff;
+    margin: 0 10px;
+}
+
+.header input {
+    font-size: 1.5rem;
+    padding: 2px 20px;
+    margin: 2px 10px;
+    color: grey;
+    border-radius: 10px;
+    border: #304ffe solid 1px;
+}
+
+.header button {
+    margin: 0 8px;
+    background: none;
+    border: none;
+}
+
+.header button img {
+    width: 36px;
+    height: 36px;
+}
+
+
