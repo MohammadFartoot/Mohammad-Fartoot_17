@@ -1,12 +1,39 @@
-# React + Vite
+# ⚛️ React Contact App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A scalable React + Vite Contact App following **feature-based architecture**.
 
-Currently, two official plugins are available:
+This project offers a clean, modular structure, enabling you to save and manage your contacts effortlessly with a beautiful and intuitive UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](/public/Screenshot.png)
+<br>
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+- 🗑️ Bulk delete contacts
+- 🔍 Search contacts by name or email
+- 🔔 Notifications for user actions
+- 🌙 Light & Dark theme support
+- 🧱 Clean and scalable file structure
+
+---
+
+## 🧑🏻‍🔧 Tech Stack
+
+- React 19
+- Vite
+- Yup
+- React Hook Form
+- Feature-based architecture
+- Flux architecture
+- JSON Server - Mock backend API
+- CSS Modules - Scoped styling
+
+---
+
+## 📬 Contact
+
+Made with ☕️️ by **[Mohammad Fartoot]**  
+GitHub: [@MohammadFartoot](https://github.com/MohammadFartoot)
+
