@@ -1,0 +1,32 @@
+.successNotification {
+    background-color: limegreen;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.successNotification p {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
+.errorNotification {
+    background-color: red;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+    padding: 20px;
+    border-radius: 9px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.errorNotification p {
+    font-family: YekanBakh-Regular, Arial, sans-serif;
+    font-size: 1.1rem;
+    color: #ffffff;
+}
+
